@@ -1,9 +1,37 @@
+.price__title-box {
+	margin-bottom: 120px;
+	padding-top: 80px;
+}
+
 .price__list {
+	display: flex;
 	.set-ul();
+	margin-bottom: 115px;
+}
+
+.price__item {
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	text-align: center;
+	border: 1px solid #eeeeee;
+
+	&--best {
+		margin-top: -40px;
+		border-top: 5px solid #485563;
+		border-right: none;
+		border-left: none;
+	}
+}
+
+.price__item-header {
+	padding-top: 25px;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .price__subtitle {
 	.set();
+	margin-bottom: 20px;
 	font-family: @ff-label, sans-serif;
 	font-size: 20px;
 	font-weight: 700;
@@ -31,18 +59,26 @@
 
 .price__period {
 	display: block;
+	margin-bottom: 30px;
+	padding-top: 10px;
 	text-transform: uppercase;
 	color: fade(@cl-text, 80%);
 }
 
 .price__pack-desc {
 	.set();
+	padding: 40px;
 	line-height: 40px;
 }
 
 .price__button {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	box-sizing: border-box;
+	width: 120px;
+	margin: 0 auto;
+	margin-top: auto;
+	margin-bottom: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-left: 30px;
 	padding-right: 30px;
 	font-family: 'Montserrat', sans-serif;
