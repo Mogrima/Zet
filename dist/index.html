@@ -310,18 +310,26 @@
 		<section class="contact">
 			<h2 class="visually-hidden">Contact us</h2>
 			<div class="map">
-				<img src="img/map.png" alt="map" width="600">
+				<img class="map__content" src="img/map.png" alt="map" width="600">
 			</div>
 			<div class="mail">
 				<form class="mail__form" action="#" method="post">
-					<label class="mail__label" for="name">Name</label>
-					<input class="mail__input" id="name" type="text" name="name">
-					<label class="mail__label" for="email">Email</label>
-					<input class="mail__input" id="email" type="email">
-					<label class="mail__label" for="phone">Phone</label>
-					<input class="mail__input" id="phone" type="text">
-					<label class="mail__label" for="message">Message</label>
-					<textarea class="mail__input" name="message" id="message" cols="30" rows="10"></textarea>
+					<p class="mail__wrapp">
+						<label class="mail__label" for="name">Name</label>
+						<input class="mail__input" id="name" type="text" name="name">
+					</p>
+					<p class="mail__wrapp">
+						<label class="mail__label" for="email">Email</label>
+						<input class="mail__input" id="email" type="email">
+					</p>
+					<p class="mail__wrapp">
+						<label class="mail__label" for="phone">Phone</label>
+						<input class="mail__input" id="phone" type="text">
+					</p>
+					<p class="mail__wrapp">
+						<label class="mail__label" for="message">Message</label>
+						<textarea class="mail__input" name="message" id="message" cols="30" rows="10"></textarea>
+					</p>
 					<button class="button mail__button" type="submit">Submit</button>
 				</form>
 			</div>

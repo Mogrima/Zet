@@ -287,13 +287,34 @@ body {
   background-color: #485563;
   border-radius: 20px;
 }
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
 .mail {
+  box-sizing: border-box;
+  width: 50%;
+  height: 630px;
   background-color: #343132;
+}
+.mail__form {
+  width: 415px;
+  margin: 0 auto;
+  padding-top: 115px;
+  padding-bottom: 110px;
+}
+.mail__wrapp {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
 }
 .mail__input {
   box-sizing: border-box;
   width: 300px;
   padding: 10px 10px;
+  color: #f6f6f6;
   background-color: transparent;
   border: 1px solid rgba(242, 242, 242, 0.7);
   border-radius: 2px;
@@ -304,7 +325,17 @@ body {
   color: #f6f6f6;
 }
 .mail__button {
+  width: 120px;
+  margin-left: auto;
   border-radius: 2px;
+}
+.map {
+  width: 50%;
+  height: 630px;
+}
+.map__content {
+  width: 100%;
+  height: 100%;
 }
 .page-footer__container {
   display: flex;
