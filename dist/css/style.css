@@ -43,6 +43,8 @@ body {
   color: #f2f2f2;
 }
 .title__text {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   text-align: center;
 }
@@ -54,12 +56,16 @@ body {
   color: #e8e8e8;
 }
 .page-header__title {
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
 }
 .page-header__desc {
+  margin: 0;
+  padding: 0;
   font-size: 17px;
   line-height: 25px;
 }
@@ -83,6 +89,8 @@ body {
   list-style: none;
 }
 .services__subtitle {
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -90,15 +98,25 @@ body {
   text-align: center;
 }
 .services__text {
+  margin: 0;
+  padding: 0;
   line-height: 22px;
 }
 .clients__item {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 .clients__author-review {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 26px;
   color: #2b3746;
+}
+.cleints__author-picture {
+  margin: 0;
+  padding: 0;
 }
 .cleints__author-image {
   border-radius: 50%;
@@ -143,6 +161,8 @@ body {
   background-color: rgba(242, 242, 242, 0.75);
 }
 .team__subtitle {
+  margin: 0;
+  padding: 0;
   font-size: 15px;
   font-weight: 700;
   line-height: 20px;
@@ -169,6 +189,8 @@ body {
   list-style: none;
 }
 .price__subtitle {
+  margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -177,6 +199,10 @@ body {
 }
 .price__subtitle--best {
   color: #29323c;
+}
+.price__total {
+  margin: 0;
+  padding: 0;
 }
 .price__coast {
   font-family: 'Montserrat', sans-serif;
@@ -194,6 +220,8 @@ body {
   color: rgba(41, 50, 60, 0.8);
 }
 .price__pack-desc {
+  margin: 0;
+  padding: 0;
   line-height: 40px;
 }
 .price__button {
@@ -229,7 +257,13 @@ body {
   border-radius: 2px;
 }
 .page-footer__copyright {
+  margin: 0;
+  padding: 0;
   line-height: 22px;
+}
+.page-footer__social-title {
+  margin: 0;
+  padding: 0;
 }
 .social-list {
   margin: 0;
