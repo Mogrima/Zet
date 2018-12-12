@@ -3,8 +3,21 @@
 	color: @cl-lighttext;
 }
 
+.page-header__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 200px;
+	padding-top: 33px;
+}
+
+.page-header__middle {
+	text-align: center;
+}
+
 .page-header__title {
 	.set();
+	margin-bottom: 30px;
 	font-family: @ff-subtitle, sans-serif;
 	font-size: 36px;
 	font-weight: 700;
@@ -12,7 +25,41 @@
 }
 
 .page-header__desc {
+	width: 700px;
 	.set();
+	margin: 0 auto;
+	margin-bottom: 30px;
 	font-size: 17px;
 	line-height: 25px;
+}
+
+.page-header__link {
+	width: 125px;
+	margin: 0 auto;
+	margin-bottom: 140px;
+}
+
+.page-header__bottom {
+	padding-bottom: 100px;
+}
+
+.page-header__down {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	&::before {
+		content: "";
+		position: absolute;
+		right: 17px;
+		top: 13px;
+
+		width: 12px;
+		height: 12px;
+
+		border-right: 3px solid #c3c5c9;
+		border-bottom: 3px solid #c3c5c9;
+
+		transform: rotate(45deg);
+	}
 }
