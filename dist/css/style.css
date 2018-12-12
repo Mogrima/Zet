@@ -13,9 +13,221 @@ input[type="checkbox"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.button {
+  display: inline-block;
+  padding: 13px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  /* line-height: 36px; */
+  color: #e8e8e8;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #29323c;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+.title--light {
+  color: #f2f2f2;
+}
+.title__text {
+  line-height: 30px;
+  text-align: center;
+}
+.title__text--light {
+  color: #f2f2f2;
+}
+.page-header {
+  background-color: #2e3842;
+  color: #e8e8e8;
+}
+.page-header__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.page-header__desc {
+  font-size: 17px;
+  line-height: 25px;
+}
+.services {
+  background-color: #f5f5f5;
+}
+.services__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.services__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.services__text {
+  line-height: 22px;
+}
+.clients__item {
+  text-align: center;
+}
+.clients__author-review {
+  font-size: 16px;
+  line-height: 26px;
+  color: #2b3746;
+}
+.cleints__author-image {
+  border-radius: 50%;
+}
+.clients__author-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 20px;
+}
+.clients__author-job {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+.clients__toggles {
+  width: 55px;
+  margin: 0 auto;
+}
+.clients__toggle {
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border: 1px solid #2b3746;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.clients__toggle--current {
+  background-color: #2b3746;
+}
+.team {
+  background-color: #2e3842;
+}
+.team__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.team__item {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(242, 242, 242, 0.75);
+}
+.team__subtitle {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.team__job {
+  line-height: 20px;
+}
+.team__social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.partners {
+  background-color: #f5f5f5;
+}
+.partners__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.price__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.price__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #485563;
+}
+.price__subtitle--best {
+  color: #29323c;
+}
+.price__coast {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 9px;
+  color: #485563;
+}
+.price__coast--best {
+  color: #29323c;
+}
+.price__period {
+  display: block;
+  text-transform: uppercase;
+  color: rgba(41, 50, 60, 0.8);
+}
+.price__pack-desc {
+  line-height: 40px;
+}
+.price__button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #e8e8e8;
+  text-decoration: none;
+  background-color: #485563;
+  border-radius: 20px;
+}
+.mail {
+  background-color: #343132;
+}
+.mail__input {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: 1px solid rgba(242, 242, 242, 0.7);
+  border-radius: 2px;
+}
+.mail__label {
+  font-family: 'Montserrat';
+  line-height: 36px;
+  color: #f6f6f6;
+}
+.mail__button {
+  border-radius: 2px;
+}
+.page-footer__copyright {
+  line-height: 22px;
+}
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 body {
   /* background-color: #2c3239;
 	background-color: #2a3341; */
-  /* font-family: 'Montserrat', sans-serif;
-	font-family: 'Open Sans', sans-serif; */
+  /* font-family: @ff-subtitle, sans-serif;
+	font-family: @ff-text, sans-serif; */
 }
