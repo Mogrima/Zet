@@ -33,6 +33,21 @@ body {
   font-size: 14px;
   color: #29323c;
 }
+.title-box {
+  position: relative;
+}
+.title-box::after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  right: 462px;
+  width: 40px;
+  height: 2px;
+  background-color: #525961;
+}
+.title-box--light::after {
+  background-color: rgba(242, 242, 242, 0.8);
+}
 .title-box__title {
   margin: 0;
   padding: 0;
@@ -115,6 +130,15 @@ body {
   border-bottom: 3px solid #c3c5c9;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+.page-header__down::after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  bottom: -106px;
+  width: 1px;
+  height: 105px;
+  background-color: rgba(242, 242, 242, 0.7);
 }
 .main-nav {
   display: flex;
@@ -215,9 +239,20 @@ body {
   padding-top: 95px;
 }
 .clients__item {
+  position: relative;
   margin: 0;
   padding: 0;
   text-align: center;
+}
+.clients__item::before {
+  content: "";
+  position: absolute;
+  bottom: 152px;
+  right: 472px;
+  width: 16px;
+  height: 11px;
+  background-image: url("../img/point.png");
+  background-repeat: no-repeat;
 }
 .clients__author-review {
   margin: 0;

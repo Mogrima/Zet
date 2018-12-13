@@ -1,3 +1,25 @@
+.title-box {
+	position: relative;
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: -18px;
+		right: 462px;
+
+		width: 40px;
+		height: 2px;
+
+		background-color: #525961;
+	}
+
+	&--light {
+		&::after {
+			background-color: fade(#f2f2f2, 80%);
+		}
+	}
+}
+
 .title-box__title {
 	.set();
 	font-size: 26px;

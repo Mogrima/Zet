@@ -4,8 +4,23 @@
 }
 
 .clients__item {
+	position: relative;
 	.set();
-	text-align: center
+	text-align: center;
+
+	&::before {
+		content: "";
+
+		position: absolute;
+		bottom: 152px;
+		right: 472px;
+
+		width: 16px;
+		height: 11px;
+
+		background-image: url("../img/point.png");
+		background-repeat: no-repeat;
+	}
 }
 
 .clients__author-review {
