@@ -33,7 +33,7 @@ body {
   font-size: 14px;
   color: #29323c;
 }
-.title {
+.title-box__title {
   margin: 0;
   padding: 0;
   font-size: 26px;
@@ -41,17 +41,17 @@ body {
   line-height: 22px;
   text-align: center;
 }
-.title--light {
+.title-box__title--light {
   color: #f2f2f2;
 }
-.title__text {
+.title-box__text {
   margin: 0;
   padding: 0;
   padding-top: 10px;
   line-height: 30px;
   text-align: center;
 }
-.title__text--light {
+.title-box__text--light {
   color: #f2f2f2;
 }
 .container {
@@ -327,7 +327,15 @@ body {
 .partners {
   background-color: #f5f5f5;
 }
+.partners__container {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
 .partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
