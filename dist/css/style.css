@@ -199,6 +199,10 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.works__title-box {
+  margin-bottom: 75px;
+  padding-top: 95px;
+}
 .works__link {
   width: 20%;
 }
