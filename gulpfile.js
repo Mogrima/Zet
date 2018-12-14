@@ -4,6 +4,7 @@ var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var rigger = require("gulp-rigger");
+var cssMinify = require("gulp-clean-css");
 var imagemin = require("gulp-imagemin");
 var server = require("browser-sync").create();
 gulp.task("html:build", function () {
@@ -22,6 +23,14 @@ gulp.task("html:build", function () {
     .pipe(gulp.dest("dist/css"))
     .pipe(server.stream());
 });
+
+ gulp.task("cssMinify", function() {
+  gulp.src("dist/css/style.css")
+  .pipe(cssMinify())
+  .pipe(gulp.dest("dist/css"))
+    .pipe(server.stream());
+ });
+ 
  gulp.task("image:build", function () {
     gulp.src("src/img/**/*.*")
     .pipe(imagemin())
