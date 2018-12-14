@@ -46,8 +46,45 @@
 }
 
 .team__image {
+	position: relative;
 	order: -1;
 	margin-bottom: 30px;
+}
+
+.team__link-bio {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	.set();
+	padding-top: 100px;
+	font-family: @ff-subtitle, sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 36px;
+	color: @cl-lighttext;
+	text-transform: uppercase;
+
+	background-color: fade(#29333d, 70%);
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: 86px;
+		right: 90px;
+
+		width: 40px;
+		height: 2px;
+
+		background-color: fade(#f2f2f2, 80%);
+	}
+}
+
+.team__image:hover .team__link-bio {
+	display: block;
 }
 
 .team__social-list {
