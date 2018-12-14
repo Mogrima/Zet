@@ -83,6 +83,9 @@ body {
 }
 .page-header {
   background-color: #2e3842;
+  background-image: url("../img/bg-header-dark.jpg");
+  background-size: cover;
+  background-position: 50%;
   color: #e8e8e8;
 }
 .page-header__top {
@@ -332,6 +335,8 @@ body {
   padding-top: 98px;
   padding-bottom: 98px;
   background-color: #2e3842;
+  background-image: url("../img/bg-team-dark.jpg");
+  background-size: cover;
 }
 .team__title-box {
   margin-bottom: 85px;
@@ -504,6 +509,10 @@ body {
   width: 50%;
   height: 630px;
   background-color: #343132;
+  background-image: url("../img/mail-bg-dark.jpg");
+  background-position: 50%;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
 }
 .mail__form {
   width: 415px;
