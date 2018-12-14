@@ -4,3 +4,18 @@
 	width: 170px;
 	.set-ul();
 }
+
+.social-list__icon {
+	&:hover,
+	&:focus {
+		path {
+			fill: @cl-text;
+		}
+	}
+
+	&:active {
+		path {
+			fill: darken(@cl-text, 10%);
+		}
+	}
+}

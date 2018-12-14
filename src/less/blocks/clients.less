@@ -71,5 +71,20 @@
 	cursor: pointer;
 	&--current {
 		background-color: #2b3746;
+		cursor: default;
+	}
+
+	&:hover {
+		background-color: lighten(#2b3746, 20%);
+		border-color: lighten(#2b3746, 20%);
+	}
+
+	&:active {
+		background-color: #29323c;
+	}
+
+	&--current:hover {
+		border-color: #2b3746;
+		background-color: #2b3746;
 	}
 }

@@ -12,4 +12,14 @@
 	background-color: transparent;
 	border: 1px solid #f2f2f2;
 	border-radius: 30px;
+
+	&:hover,
+	&:focus {
+		background-color: fade(#f2f2f2, 20%);
+	}
+
+	&:active {
+		color: @bg-header;
+		background-color: #f2f2f2;
+	}
 }
